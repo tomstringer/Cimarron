@@ -1,0 +1,406 @@
+/*-------Site Colours-------------*/
+
+/*light green: #d4eeba */
+/*light blue: #81b9d8 */
+/*dark green: #006a28 */
+/*dark blue: #1860A9 */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/*-----------Basic font stuff------------*/
+
+p, h3 {
+	font-size: x-small;
+	line-height: 140%;
+	voice-family: "\"}\"";   
+	voice-family: inherit;  
+	font-size: small;
+	}
+
+h2 {
+	font-family: DIN, sans-serif;
+	font-weight: bold;
+	font-size: small;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	voice-family: "\"}\"";   
+	voice-family: inherit;
+	font-size: medium;
+	}
+
+.noTopMargin {
+	margin-top: 8px;
+	padding-top: 0;
+}
+
+h3 {
+	font-family: DIN;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 4px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 16px;
+}
+
+
+/*-----------Positioning------------*/
+
+/*It's copyright: learn from it, but don't steal it. I WILL hear about it.*/
+
+
+#container {
+	margin: 0px auto;
+	margin-top: 30px;
+	width: 650px;
+	margin-bottom: 30px;
+}
+
+#top {
+	padding-top: 25px;
+	background: url(../images/top.gif) top right no-repeat;
+	background-color: #D4eeba;
+}
+
+#middle {
+	background: url(../images/middle.gif) right repeat-y;
+	background-color: transparent;
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+#text {
+	float: right;
+	/*margin-right: 30px;
+	margin-left: 15px;*/
+	width: 360px;
+	voice-family: "\"}\"";   
+	voice-family: inherit; 
+	width: 380px;
+
+}
+
+#bottom {
+	background: url(../images/bottom.gif) right no-repeat;
+	background-color: #fff;
+	padding-left: 20px;
+	}
+
+#sidebar {
+	float: left;
+	width: 180px;
+	margin-left: 15px;
+	padding: 10px;
+	background: url(../images/blurry.gif) repeat-y;
+}
+
+.clearer {
+	line-height:0;
+	height:2px;
+	clear:both;
+}
+
+/* Added to the Blueprint site is the footer stuff: */
+
+.footer {
+	width:100%;
+}
+
+p.byline {
+	font-size:11px;
+	width:100%;
+	text-align:center;
+}
+
+/*--------Image wrangling-----------*/
+.largeimage, .slides {
+	padding-left: 1px;
+	padding-top: 0px;
+}
+
+
+/*--------Sidebar stuff-----------*/
+.sidebar-divider {
+	margin-bottom: 20px;
+	text-align: center;
+}
+#sidebar img {
+	padding: 5px;
+	/*border: 1px solid gray;*/
+	background-color: #fff;
+}
+
+
+
+#sidebar p {
+	line-height: 140%;
+	font-size: 11px;
+	width: 160px;
+	margin: 0;
+	padding: 0px 5px 10px 5px;
+	text-align: left;
+}
+
+#sidebar h2 {
+	color: #006a28;
+	font-size: small;
+	padding: 0 5px 5px 5px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.captioned {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 9px;
+	font-size: 11px;
+}
+
+#sidebar .captioned blockquote {
+	margin-left:0;
+	padding:0;
+	text-align:center;
+	width:100%;
+}
+
+#sidebar .captioned blockquote p {
+	padding:0;
+	width:100%;
+	text-align:center;
+}
+
+#sidebar ul {
+		list-style: none;
+		font-weight: bold;
+		line-height: 160%;
+		font-size: 11px;
+		margin: 0;
+		padding: 4px 5px 0px 15px;
+		text-align: left;
+}
+
+
+/*--------sliding doors navigation (thanks alistapart.com)-------- */
+
+		#mast {
+			padding: 0;
+			margin: 0;
+      /*float:left;*/
+      /*background: url(../images/masthead.gif) top left no-repeat;*/
+      width: 100%;
+      font-size: 10px;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      line-height:normal;
+}
+
+    #mast ul {
+      margin:0;
+      padding:10px 20px 0;
+      list-style:none;
+      }
+    #mast li {
+      float:right;
+      background:url(../images/activeleft.gif) no-repeat left top;
+      margin:0 2px;
+      padding:0 0 0 9px;
+      }
+    #mast a {
+      float:left;
+      display:block;
+      background:url(../images/activeright.gif) no-repeat right top;
+      padding:5px 15px 4px 6px;
+      text-decoration:none;
+      font-weight:bold;
+      color:#81b9d8;
+      }
+    /* Commented Backslash Hack
+       hides rule from IE5-Mac \*/
+    #mast a {float:none;}
+    /* End IE5-Mac hack */
+    #mast a:hover {
+      color:#fff;
+      }
+    #mast .active {
+      background-image:url(../images/normleft.gif);
+      /*border-width:0;*/
+      }
+    #mast .active a {
+      background-image:url(../images/normright.gif);
+      color:#fff;
+      padding-bottom:5px;
+      }
+
+      .masthead {
+      	border: none;
+      }
+
+      
+
+/*-----------Main section stuff------------*/
+
+#text h2 {
+	color: #006a28;
+}
+
+.small {
+	width: 300px;
+	font-size: 12px;
+	line-height: 130%;
+	margin: 5px 0 10px 0;
+	padding: 0;
+}
+
+.divider {
+	border-bottom: 1px dotted #006a28;
+	margin-bottom: 24px;
+	width: 300px;
+}
+
+strong {
+	color: #006a28;
+}
+
+.frontcaption {
+	position: absolute;
+	z-index: 5;
+	left: 10px;
+	top: 20px;
+}
+
+#front-image {
+	background:url(../images/front.jpg) top left no-repeat;
+	width:648px;
+}
+
+.tagline {
+	font-style: italic;
+	font-size: 11px;
+	line-height: 120%;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+}
+
+
+	
+
+/*-----------Slideshows------------*/
+
+.slideshows {
+	padding-right: 45px;
+	text-align: center;
+	}
+
+.slide {
+	float: left;
+	margin-left: 30px;
+	width: 170px;
+	margin-bottom: 20px;
+}
+
+.slide img {
+	padding: 5px;
+	background-color: #fff;
+}
+
+.caption {
+	padding: 0;
+	margin: 0;
+	display:block;
+	text-align: center;
+	padding-left: 5px;
+	padding-top:5px;
+	font-size: 11px;
+}
+
+
+/*--------------Links-------------------*/
+
+a:link, a:hover { 
+	color: #1860A9;
+}
+
+a:active, a:visited {
+	color: #1860A9;
+	text-decoration: none;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------
+>>>> Uniform overwrites (remove the .uniForm class from forms to disregard)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* This is the main unit that contains our form elements */
+.uniForm .ctrlHolder { padding: 0; }
+.uniForm .buttonHolder { 
+	padding-top: 10px;
+	padding-right:25px; 
+}
+
+.uniForm .inlineLabels label,
+.uniForm .inlineLabels .label { 
+  width: 40%; 
+	font-size:12px;
+}
+.uniForm .inlineLabels .textInput,
+.uniForm .inlineLabels .fileUpload { 
+  width: 54%; 
+}
+
+.uniForm .inlineLabels .selectInput,
+.uniForm .inlineLabels select{ 
+	width: 54%;  
+}
+
+.uniForm .inlineLabels textarea{  width: 54%; font-family: Helvetica, Arial, sans-serif; }
+
+.uniForm .inlineLabels .formHint { 
+  margin-top: 0; 
+  margin-left: 42%; 
+  font-size: .9em; 
+  color: #777; 
+  position: static; 
+}
+.uniForm .inlineLabels .multiField { 
+  width: 54%; 
+  margin: 0 0 .3em 0; 
+}
+
+.uniForm label.blockLabel { font-size: 90%; }
+.uniForm .inlineLabels .blockLabel {
+  width: 45%;
+  margin-right: 5%;
+}
+
+.uniForm .ctrlHolder { 
+  padding: 6px 0; 
+  border-bottom: 1px solid #bbb;
+}
+.uniForm .noBorder {
+  border: 0;
+}
+.uniForm .inlineLabels p.formHint {
+  font-size: 80%;
+  padding-top: 0.8em;
+  line-height: 130%;
+}
+
+.uniForm input {
+	width:50%;
+}
+
+
+	
